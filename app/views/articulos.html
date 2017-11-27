@@ -1,0 +1,11 @@
+<h1>Articulos</h1>
+
+<uib-accordion>
+ <div uib-accordion-group class="panel-default" heading="{{post.title}}" ng-repeat="post in posts">
+  {{post.content}}
+ </div>
+</uib-accordion>
+
+
+ <ul uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"></ul><font></font>
+    <ul uib-pagination boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></ul><font></font
