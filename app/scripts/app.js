@@ -19,7 +19,9 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.bootstrap',
-    'ui.grid'
+    'ui.grid',
+    'ui.grid.edit',
+    'ui.grid.cellNav'
     
    
   ])
